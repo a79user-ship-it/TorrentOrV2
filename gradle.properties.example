@@ -1,0 +1,10 @@
+﻿org.gradle.jvmargs=-Xmx2048m -Dfile.encoding=UTF-8
+android.useAndroidX=true
+kotlin.code.style=official
+
+# Release signing - copy this file to gradle.properties and fill in real values locally.
+# Never commit the real gradle.properties (it's in .gitignore).
+RELEASE_STORE_FILE=release-key.jks
+RELEASE_STORE_PASSWORD=changeme
+RELEASE_KEY_ALIAS=torrentor
+RELEASE_KEY_PASSWORD=changeme

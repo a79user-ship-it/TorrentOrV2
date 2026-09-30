@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <files-path name="torrentor_downloads" path="torrentor_test/" />
+    <!-- Covers custom save folders picked anywhere under external storage
+         (see MainActivity's showFolderBrowserDialog / MANAGE_EXTERNAL_STORAGE). -->
+    <external-path name="external_downloads" path="." />
+</paths>

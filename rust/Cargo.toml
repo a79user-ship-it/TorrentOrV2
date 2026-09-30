@@ -1,0 +1,18 @@
+[package]
+name = "torrentor_engine"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "torrentor_engine"
+crate-type = ["cdylib"]
+
+[dependencies]
+jni = "0.22"
+librqbit = { version = "9.0.1", default-features = false, features = ["rust-tls"] }
+tokio = { version = "1", features = ["rt-multi-thread"] }
+anyhow = "1"
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }
+paranoid-android = "0.2"
+rustls-platform-verifier = "0.7"

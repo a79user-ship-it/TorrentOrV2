@@ -1,0 +1,23 @@
+﻿# Build outputs
+/build/
+/app/build/
+/rust/target/
+
+# Gradle
+/.gradle/
+
+# Local machine-specific config
+local.properties
+
+# Signing key and secrets - NEVER commit these
+*.jks
+*.keystore
+gradle.properties
+
+# IDE files
+.idea/
+*.iml
+
+# OS cruft
+.DS_Store
+Thumbs.db
